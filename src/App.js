@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div>
+    <div className="h-screen flex flex-col">
       <header>Header</header>
-      <main>
+      <main className="bg-retro-beige grow">
         <h1>Heading</h1>
         <p>Content</p>
       </main>
