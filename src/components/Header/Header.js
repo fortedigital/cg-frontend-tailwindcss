@@ -14,13 +14,18 @@ const Link = ({ href, children }) => {
 
 function Header() {
   return (
-    <header className="bg-retro-brown flex items-center px-8 py-2 text-white justify-between">
-      <a href="/">
-        <img src={logo} className="h-16" alt="Forte Analog logo" />
-      </a>
-      <div className="flex gap-x-8">
-        <Link href="/om-oss">Om oss</Link>
-        <Link href="/prosjekter">Prosjekter</Link>
+    <header className="bg-retro-brown  px-8 py-2 text-white">
+      <div className="container mx-auto px-8 flex items-center justify-between">
+        <a href="/">
+          <img src={logo} className="h-16" alt="Forte Analog logo" />
+        </a>
+        <div className="flex gap-x-8">
+          <Link href="/om-oss">Om oss</Link>
+          <Link href="/prosjekter">Tjenester</Link>
+          <Link href="/prosjekter">Prosjekter</Link>
+          {/* TODO: create Menu with Headless UI */}
+          <Link href="/jobb">Jobb</Link>
+        </div>
       </div>
     </header>
   );
