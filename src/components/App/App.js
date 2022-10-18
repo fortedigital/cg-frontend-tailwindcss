@@ -4,10 +4,10 @@ import ActionCard from "../ActionCard";
 
 function App() {
   return (
-    <div className="h-screen flex flex-col bg-retro-beige">
+    <div className="min-h-screen flex flex-col bg-retro-beige">
       <Header />
       <main className="grow max-w-6xl mx-auto px-8 py-8">
-        <h1 className="text-8xl mx-auto text-center font-bold py-24">
+        <h1 className="text-6xl md:text-7xl lg:text-8xl mx-auto text-center font-bold py-24">
           Drevet av gammeldags innovasjon
         </h1>
         <div className="grid grid-cols-2 gap-8">
