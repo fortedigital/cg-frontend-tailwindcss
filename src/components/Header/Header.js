@@ -5,7 +5,7 @@ const Link = ({ href, children }) => {
   return (
     <a
       href={href}
-      className="text-lg font-bold hover:underline underline-offset-4"
+      className="text-lg font-bold underline-offset-4 hover:underline"
     >
       {children}
     </a>
@@ -14,8 +14,8 @@ const Link = ({ href, children }) => {
 
 function Header() {
   return (
-    <header className="bg-retro-brown  px-8 py-2 text-white">
-      <div className="max-w-6xl mx-auto px-8 flex items-center justify-between">
+    <header className="bg-retro-brown">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-8 py-2 text-white">
         <a href="/">
           <img src={logo} className="h-16" alt="Forte Analog logo" />
         </a>
