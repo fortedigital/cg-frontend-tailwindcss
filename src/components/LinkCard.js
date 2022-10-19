@@ -1,6 +1,6 @@
 import React from "react";
 
-function ActionCard({ title, description, href }) {
+function LinkCard({ title, description, href }) {
   return (
     <div className="flex h-52 flex-col justify-between rounded-xl border bg-retro-coral p-4 text-white">
       <div>
@@ -17,4 +17,4 @@ function ActionCard({ title, description, href }) {
   );
 }
 
-export default ActionCard;
+export default LinkCard;

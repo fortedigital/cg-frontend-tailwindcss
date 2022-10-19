@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import ActionCard from "./ActionCard";
+import LinkCard from "./LinkCard";
 
 function App() {
   return (
@@ -11,22 +11,22 @@ function App() {
           Drevet av gammeldags innovasjon
         </h1>
         <div className="grid grid-cols-2 gap-8">
-          <ActionCard
+          <LinkCard
             title="Om oss"
             description="Vi er et veldig interessant firma"
             href="/om-oss"
           />
-          <ActionCard
+          <LinkCard
             title="Tjenester"
             description="Vi tilbyr mange kule tjenester"
             href="/tjenester"
           />
-          <ActionCard
+          <LinkCard
             title="Prosjekter"
             description="Prosjektene våre er out of this world"
             href="/prosjekter"
           />
-          <ActionCard
+          <LinkCard
             title="Jobb"
             description="Jobb hos oss er du snill"
             href="/jobb"
