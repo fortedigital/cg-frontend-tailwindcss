@@ -8,7 +8,7 @@ function LinkCard({ title, description, href }) {
         <p>{description}</p>
       </div>
       <a
-        className="w-fit rounded-md bg-retro-darkbrown py-2 px-4 font-bold text-white transition-colors hover:bg-retro-brown"
+        className="w-fit rounded-md bg-retro-brown py-2 px-4 font-bold text-white transition-colors hover:bg-retro-brown-dark"
         href={href}
       >
         Les mer →

@@ -6,8 +6,11 @@ module.exports = {
       colors: {
         "retro-white": "#FFF8EA",
         "retro-coral": "#9E7676",
-        "retro-brown": "#815B5B",
-        "retro-darkbrown": "#594545",
+        "retro-brown": {
+          DEFAULT: "#594545",
+          light: "#815B5B",
+          dark: "#3e3030",
+        },
       },
     },
   },

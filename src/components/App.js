@@ -7,7 +7,7 @@ function App() {
     <div className="min-h-screen bg-retro-white">
       <Header />
       <main className="mx-auto max-w-6xl px-8 py-8">
-        <h1 className="mx-auto pt-12 pb-20 text-center text-7xl font-bold">
+        <h1 className="mx-auto pt-12 pb-20 text-center text-7xl font-bold text-retro-brown-dark">
           Drevet av gammeldags innovasjon
         </h1>
         <div className="grid grid-cols-2 gap-8">

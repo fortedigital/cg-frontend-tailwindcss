@@ -14,7 +14,7 @@ const Link = ({ href, children }) => {
 
 function Header() {
   return (
-    <header className="bg-retro-brown">
+    <header className="bg-retro-brown-light">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-8 py-2 text-white">
         <a href="/">
           <img src={logo} className="h-16" alt="Forte Analog logo" />
