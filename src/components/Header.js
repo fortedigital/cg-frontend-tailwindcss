@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/forte_analog_logo_full.png";
+import logo from "../assets/forte_analog_logo_full.png";
 
 const Link = ({ href, children }) => {
   return (
@@ -23,7 +23,6 @@ function Header() {
           <Link href="/om-oss">Om oss</Link>
           <Link href="/prosjekter">Tjenester</Link>
           <Link href="/prosjekter">Prosjekter</Link>
-          {/* TODO: create Menu with Headless UI */}
           <Link href="/jobb">Jobb</Link>
         </div>
       </div>

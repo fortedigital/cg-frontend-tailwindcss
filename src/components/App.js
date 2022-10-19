@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../Header";
-import ActionCard from "../ActionCard";
+import Header from "./Header";
+import ActionCard from "./ActionCard";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-retro-white">
       <Header />
       <main className="mx-auto max-w-6xl px-8 py-8">
         <h1 className="mx-auto pt-12 pb-20 text-center text-7xl font-bold">

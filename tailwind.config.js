@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "retro-brown": "#6F5643",
-        "retro-red": "#CC6B49",
-        "retro-gold": "#D2A24C",
-        "retro-beige": "#ECE6C2",
-        "retro-teal": "#73BDA8",
+        "retro-white": "#FFF8EA",
+        "retro-coral": "#9E7676",
+        "retro-brown": "#815B5B",
+        "retro-darkbrown": "#594545",
       },
     },
   },
