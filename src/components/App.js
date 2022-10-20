@@ -3,7 +3,7 @@ function App() {
     <div>
       <header>
         <div>
-          <a href="/">LOGO</a>
+          <p>Forte Analog logo</p>
           <div>
             <a href="/om-oss">Om oss</a>
             <a href="/prosjekter">Tjenester</a>
@@ -15,6 +15,7 @@ function App() {
 
       <main>
         <h1>Drevet av gammeldags innovasjon</h1>
+        <p>Innhold</p>
       </main>
     </div>
   );
