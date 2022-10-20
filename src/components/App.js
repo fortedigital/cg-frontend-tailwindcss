@@ -2,7 +2,7 @@ function App() {
   return (
     <div>
       <header>
-        <div>
+        <div className="bg-retro-brown-light text-white">
           <p>Forte Analog logo</p>
           <div>
             <a href="/om-oss">Om oss</a>
